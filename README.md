@@ -16,7 +16,17 @@ Linux Wayland 下的离线语音输入法。按 Caps Lock 说话，自动识别�
 - **模型**: SenseVoice int8 (~229MB) + Silero VAD (~2.3MB)
 - **桌面环境**: KDE Plasma (Wayland)
 
-## 安装
+## 一键安装
+
+```bash
+git clone https://github.com/ThendCN/voice-input.git
+cd voice-input && ./install.sh
+```
+
+> 需要 [uv](https://docs.astral.sh/uv/) 和 Arch Linux (pacman) 或 Debian/Ubuntu (apt)。
+> 安装后需要**重新登录**以使 input 组权限生效。
+
+## 手动安装
 
 ```bash
 # 1. 系统依赖 (Arch Linux)
