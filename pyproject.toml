@@ -1,0 +1,13 @@
+[project]
+name = "voice-input"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "evdev>=1.9.3",
+    "numpy>=2.4.2",
+    "onnxruntime==1.23.2",
+    "sherpa-onnx>=1.12.23",
+    "sounddevice>=0.5.5",
+]
